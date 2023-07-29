@@ -17,6 +17,7 @@ Once installed, start the SSH service with:
 sudo systemctl start ssh
 
 00000000000000000000000000
+
 Enable SSH at Boot
 If you want SSH to start automatically at boot, run:
 
@@ -25,6 +26,7 @@ If you want SSH to start automatically at boot, run:
 sudo systemctl enable ssh
 
 0000000000000000000000000
+
 Verify SSH Service Status
 Check if the service is active with:
 
@@ -33,6 +35,7 @@ Check if the service is active with:
 sudo systemctl status ssh
 
 0000000000000000000000000
+
 Adjust Firewall Settings
 If you have UFW enabled (Uncomplicated Firewall), allow SSH:
 
